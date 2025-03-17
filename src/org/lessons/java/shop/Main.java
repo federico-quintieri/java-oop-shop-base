@@ -26,5 +26,13 @@ public class Main {
         // System.out.println(mioConto.getSaldo());
         // mioConto.Preleva(BigDecimal.valueOf(10));
         // System.out.println(mioConto.getSaldo());
+
+        // Snack 3
+        RegistroStudenti mioRegistro = new RegistroStudenti(5);
+
+        mioRegistro.aggiungiStudente(new Studente("Billy", "Roger", 21));
+        mioRegistro.aggiungiStudente(new Studente("Bob", "Roger", 22));
+        mioRegistro.aggiungiStudente(new Studente("Lie", "Roger", 23));
+        mioRegistro.mostraStudenti();
     }
 }
